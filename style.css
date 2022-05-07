@@ -11,6 +11,7 @@ header.nasa {
     vertical-align: middle;
     width: 850px;
     height: 450px;
+    font: 45px Arial, sans-serif;
 }
 h1.nasa {
     width: 850px;
@@ -23,7 +24,36 @@ div.top-box {
     background-image: url("https://spaceplace.nasa.gov/gallery-space/en/NGC2336-galaxy.en.jpg");
     width: 850px;
     height: 450px;
+    padding: 0;
+    margin: 40px 40px 0 40px;
+
+}
+section.bottom-box  {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px 40px 0 40px;
+    width: 850px;
+    height: 324px;
+    background-color: cornsilk;
+    font: 15px Arial, sans-serif;
+}
+div.box-in-bot  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 270px;
+    padding: 10px;
+}
+ul.elements-below   {
+    display:flex;
+    flex-direction: column;
+    list-style: none;
     margin: 0;
     padding: 0;
-
+}
+li {
+    padding: 5px;
 }
